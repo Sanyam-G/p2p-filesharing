@@ -15,9 +15,9 @@ This project is a robust, distributed peer-to-peer (P2P) file sharing system imp
 - Required libraries (all standard):
   - `socket`, `threading`, `tkinter`, `json`, `hashlib`, `os`
 - *Optional:* For encryption features, install:
-'''
+```
 pip install cryptography
-'''
+```
 ## Project Structure
 p2p_file_sharing/ 
 ├── bootstrap_server.py # Central server for peer registration and discovery 
