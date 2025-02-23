@@ -19,6 +19,7 @@ This project is a robust, distributed peer-to-peer (P2P) file sharing system imp
 pip install cryptography
 ```
 ## Project Structure
+```
 p2p_file_sharing/ 
 ├── bootstrap_server.py # Central server for peer registration and discovery 
 ├── peer.py # Peer node implementation (CLI interface) 
@@ -26,15 +27,16 @@ p2p_file_sharing/
 ├── good_frontend.py # Tkinter-based GUI frontend for the peer node 
 ├── README.md # This file 
 └── files/ # Directory for shared/downloaded files
+```
 
 ## Setup and Usage
 
 ### Starting the Bootstrap Server
 1. Open a terminal and navigate to the project directory.
 2. Run the bootstrap server:
-'''
+```
 python3 bootstrap_server.py
-'''
+```
 The server listens on port **8000** by default.
 
 ### Running a Peer Node (CLI)
@@ -52,8 +54,8 @@ python3 peer.py 10000
 ### Running the GUI Frontend
 1. Open a terminal and navigate to the project directory.
 2. Run the GUI:
-'''
+```
 python3 good_frontend.py
-'''
+```
 3. In the **Settings** tab, configure the Bootstrap Server IP/Port and your local IP/Port.
 4. Use the **Files** tab to share or download files and the **Peers** tab to view active peers.
